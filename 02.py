@@ -53,6 +53,7 @@ while True:
         types = ['Medium narrow body','Large narrow body','Medium wide body']
         if airType in types:
             x = types.index(airType)
+
             print('''
             Type:  {}
             Running cost per seat per 100km:  £{}
@@ -60,8 +61,10 @@ while True:
             Capacity if all standard-class:  {}
             Minimum number of first-class seats (if any):  {}
             '''.format(aircraft[x][0],aircraft[x][1],aircraft[x][2],aircraft[x][3],aircraft[x][4])) # program output here
+
             valid2 = True
             first = int(input('Enter the number of first-class seats > ')) # user input here
+            
             if first != 0:
                 if first < aircraft[x][4]:
                     print('Number of first-class seats must be at least {}'.format(aircraft[x][4])) # program output here
