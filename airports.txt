@@ -1,4 +1,3 @@
-Overseas airport code,Overseas airport name,Distance from Liverpool John Lennon (km),Distance from Bournemouth International(km)
 JFK,John F Kennedy International,5326,5486
 ORY,Paris-Orly,629,379
 MAD,Adolfo Suarez Madrid-Barajas,1428,1151
